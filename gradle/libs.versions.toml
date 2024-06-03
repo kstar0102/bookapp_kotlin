@@ -1,0 +1,66 @@
+[versions]
+agp = "8.4.1"
+kotlin = "1.8.10"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.0"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+
+
+androidGradlePlugin = "7.0.4"
+koin = "3.1.4"
+activityCompose = "1.4.2"
+composeCompiler = "1.4.7"
+compose = "1.4.2"
+firebase = "24.0.1"
+lifecycle = "2.4.1"
+googleServices = "4.3.10"
+gson = "2.8.8"
+coil = "2.1.0"
+accompanist = "0.23.1"
+kotlinCoroutinesPlayServices = "1.6.1"
+navigationCompose = "2.4.0-alpha10"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+compose-ui-test = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "compose" }
+compose-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose" }
+#activity-compose = { module = "androidx.activity:activity-compose", version = "1.4.0" }
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx", version.ref = "firebase" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
+kotlin-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinCoroutinesPlayServices" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

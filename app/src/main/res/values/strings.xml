@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bookapp</string>
+    <string name="library">Library</string>
+    <string name="bookapp">Book App</string>
+    <string name="welcometobookapp">Welcome to Book App</string>
+    <string name="readers">Readers</string>
+    <string name="likes">Likes</string>
+    <string name="quotes">Quotes</string>
+    <string name="genre">Genre</string>
+    <string name="summary">Summary</string>
+    <string name="youwillalsolike">You will also like</string>
+    <string name="readnow">Read Now</string>
+</resources>
